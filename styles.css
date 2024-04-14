@@ -1,0 +1,11 @@
+body {
+    text-align:center;
+}
+
+.hover img {
+    transition:.5s;
+}
+.hover img:hover {
+    filter: invert(74%) sepia(53%) saturate(3177%) hue-rotate(300deg) brightness(86%) contrast(105%);
+    transition:.5s;
+}
