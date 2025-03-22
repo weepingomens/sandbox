@@ -38,3 +38,7 @@ header {
     border-radius:100%;
     animation: spin 120s linear infinite;
 }
+
+.logo-moon { width:50px; } 
+.logo-moon path.moonback { fill:red; }
+.logo-moon path.moon { fill:green; }
