@@ -47,6 +47,7 @@ header h1 {
     z-index:1;
     position:fixed;
     filter: grayscale(25%);
+    pointer-events: none;
 }
 
 .header-circle-outer {
