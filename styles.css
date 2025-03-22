@@ -1,3 +1,8 @@
+body {
+    background-image:url(/src/Background.png);
+    background-position:fixed;
+}
+
 .header-image img {
     width:100%;
 
