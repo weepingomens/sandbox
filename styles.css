@@ -24,6 +24,6 @@ header {
 .header-circle-outer {
     width:80vh;
     aspect-ratio: 1 / 1;
-    border:3px solid red;
+    border:3px dashed var(--border);
     border-radius:100%;
 }

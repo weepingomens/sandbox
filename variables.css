@@ -1,4 +1,4 @@
 :root {
-  --border:rgba(255, 255, 255, 3%);
+  --border:rgba(255, 255, 255, 20%);
   --default-border: 2px solid var(--border);
 }
