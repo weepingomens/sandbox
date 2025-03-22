@@ -60,7 +60,7 @@ header h1 {
 }
 
 .header-circle-middle {
-    width:60vh;
+    width:75vh;
     aspect-ratio: 1 / 1;
     border:.75vh dotted var(--border);
     border-radius:100%;
@@ -74,7 +74,7 @@ header h1 {
 .header-circle-middle:before {
     content:'';
     position:absolute;
-    width:calc(60vh - 2.75vh);
+    width:calc(75vh - 2.75vh);
     aspect-ratio: 1 / 1;
     border:2px solid var(--border);
     border-radius:100%;
@@ -84,7 +84,7 @@ header h1 {
 .header-circle-middle:after {
     content:'';
     position:absolute;
-    width:calc(60vh + 3.75vh);
+    width:calc(75vh + 3.75vh);
     aspect-ratio: 1 / 1;
     border:2px solid var(--border);
     border-radius:100%;
