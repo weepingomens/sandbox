@@ -92,14 +92,18 @@ header h1 {
     width:33vh;
     aspect-ratio: 1 / 1;
     border:3px solid var(--border);
-    animation: spin 120s linear infinite;
     border-radius:100%;
     position:absolute;
     z-index:1;
 }
 
-.header-circle-inner .moon {
+.header-circle-moon {
     position:absolute;
+    width:28vh;
+    aspect-ratio: 1 / 1;
+    z-index:1;
+    border-radius:100%;
+    animation: spin 60s linear infinite;
 }
 
 
