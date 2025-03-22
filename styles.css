@@ -53,7 +53,7 @@ header h1 {
 .header-circle-outer {
     width:150vh;
     aspect-ratio: 1 / 1;
-    border:2px dashed var(--border);
+    border:.33vh dashed var(--border);
     border-radius:100%;
     animation: spin 120s linear infinite;
     position:absolute;
@@ -62,7 +62,7 @@ header h1 {
 .header-circle-middle {
     width:60vh;
     aspect-ratio: 1 / 1;
-    border:7px dotted var(--border);
+    border:.75vh dotted var(--border);
     border-radius:100%;
     position:relative;
     display:flex;
@@ -74,7 +74,7 @@ header h1 {
 .header-circle-middle:before {
     content:'';
     position:absolute;
-    width:calc(60vh - 23px);
+    width:calc(60vh - 2.75vh);
     aspect-ratio: 1 / 1;
     border:2px solid var(--border);
     border-radius:100%;
@@ -84,7 +84,7 @@ header h1 {
 .header-circle-middle:after {
     content:'';
     position:absolute;
-    width:calc(60vh + 33px);
+    width:calc(60vh + 3.75vh);
     aspect-ratio: 1 / 1;
     border:2px solid var(--border);
     border-radius:100%;
