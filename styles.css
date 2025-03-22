@@ -55,7 +55,6 @@ header h1 {
     border-radius:100%;
     animation: spin 120s linear infinite;
     position:absolute;
-    position:fixed;
 }
 
 .header-circle-middle {
@@ -68,7 +67,6 @@ header h1 {
     align-items:center;
     justify-content: center;
     animation: spin 120s linear infinite;
-    position:fixed;
 }
 
 .header-circle-middle:before {
@@ -97,7 +95,6 @@ header h1 {
     animation: spin 120s linear infinite;
     border-radius:100%;
     position:absolute;
-    position:fixed;
 }
 
 .header-circle-inner .moon {
