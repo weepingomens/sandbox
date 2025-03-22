@@ -40,6 +40,37 @@ header {
     position:absolute;
 }
 
+.header-circle-middle {
+    width:60vh;
+    aspect-ratio: 1 / 1;
+    border:2px dotted var(--border);
+    border-radius:100%;
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    animation: spin 120s linear infinite;
+}
+
+.header-circle-middle:before {
+    content:'';
+    position:absolute;
+    width:calc(60vh - 20px);
+    aspect-ratio: 1 / 1;
+    border:2px solid var(--border);
+    border-radius:100%;
+}
+
+
+.header-circle-middle:after {
+    content:'';
+    position:absolute;
+    width:calc(60vh + 20px);
+    aspect-ratio: 1 / 1;
+    border:2px solid var(--border);
+    border-radius:100%;
+}
+
 .header-circle-inner {
     width:33vh;
     aspect-ratio: 1 / 1;
