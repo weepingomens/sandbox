@@ -1,4 +1,5 @@
 :root {
   --border:rgba(255, 255, 255, 20%);
   --default-border: 2px solid var(--border);
+  --bg:#1a1a1a;
 }

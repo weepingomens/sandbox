@@ -37,8 +37,25 @@ header {
     border:3px dashed var(--border);
     border-radius:100%;
     animation: spin 120s linear infinite;
+    position:absolute;
 }
 
+.header-circle-inner {
+    width:33vh;
+    aspect-ratio: 1 / 1;
+    border:3px solid var(--border);
+    animation: spin 120s linear infinite;
+    border-radius:100%;
+    position:absolute;
+}
+
+.header-circle-inner .moon {
+    position:absolute;
+    top:22px;
+    right:22px;
+}
+
+
 .logo-moon { width:50px; } 
-.logo-moon path.moonback { fill:red; }
-.logo-moon path.moon { fill:green; }
+.logo-moon path.moonback { fill:#1a1a1a; }
+.logo-moon path.moon { fill:var(--border); }
