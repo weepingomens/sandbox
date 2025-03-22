@@ -111,7 +111,7 @@ header h1 {
 
 .logo-moon { width:5vh; } 
 .logo-moon path.moonback { fill:#1a1a1a; }
-.logo-moon path.moon { fill:var(--border); }
+.logo-moon path.moon { fill:#eee; }
 
 .driftspin {
     width:calc(90% - 50px);
