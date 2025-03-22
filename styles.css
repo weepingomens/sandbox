@@ -28,11 +28,13 @@ header {
     width:90%;
     position:absolute;
     top:-50px;
+    z-index:1;
 }
 
 .header-circle-outer {
-    width:80vh;
+    width:90vh;
     aspect-ratio: 1 / 1;
     border:3px dashed var(--border);
     border-radius:100%;
+    animation: spin 120s linear infinite;
 }
