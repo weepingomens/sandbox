@@ -27,7 +27,7 @@ header {
 }
 
 header h1 {
-    font:128pt "protest";
+    font:10vw "protest";
     position:absolute;
     z-index:2;
     color:#eee;
@@ -45,6 +45,7 @@ header h1 {
     top:-50px;
     z-index:1;
     position:fixed;
+    filter: grayscale(25%);
 }
 
 .header-circle-outer {
@@ -117,4 +118,5 @@ header h1 {
     position:relative;
     z-index:2;
     filter:grayscale(1);
+    background-size: cover;
 }
